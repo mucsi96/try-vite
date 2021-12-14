@@ -1,0 +1,20 @@
+{
+  "name": "try-vite-core",
+  "version": "0.0.1",
+  "repository": "https://github.com/mucsi96/try-vite.git",
+  "author": "Igor Bari <mucsi96@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src",
+    "check-types": "tsc",
+    "build": "vite build",
+    "qa": "npm-run-all lint check-types"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,21 @@
+.container {
+  vertical-align: top;
+  font-family: inherit;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.primary {
+  background-color: chocolate;
+  color: white;
+}
+
+.secondary {
+  background-color: #cecece;
+  color: black;
+}
+
+.disabled {
+  opacity: 0.5;
+}
