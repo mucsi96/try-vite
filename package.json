@@ -14,8 +14,15 @@
   "devDependencies": {
     "@types/react-dom": "^17.0.10",
     "@types/react": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
     "@vitejs/plugin-react": "^1.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint": "^8.4.1",
     "link-parent-bin": "^2.0.0",
+    "npm-run-all": "^4.1.5",
     "typescript": "^4.4.4",
     "vite-plugin-svgr": "^0.6.0",
     "vite": "^2.7.2"

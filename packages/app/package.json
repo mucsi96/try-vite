@@ -6,9 +6,12 @@
   "author": "Igor Bari <mucsi96@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint src",
+    "check-types": "tsc",
     "start": "vite --open",
-    "build": "tsc && vite build",
-    "serve": "vite preview --open"
+    "build": "vite build",
+    "serve": "vite preview --open",
+    "qa": "npm-run-all lint check-types"
   },
   "dependencies": {
     "react": "^17.0.2",
